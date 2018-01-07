@@ -1,4 +1,4 @@
-# Base Dockerfile for Appraiserpro
+# Base Dockerfile for django projects
 FROM python:3.6
 MAINTAINER chriscartydev@gmail.com
 
