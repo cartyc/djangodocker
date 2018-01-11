@@ -16,4 +16,4 @@ COPY requirements.txt /build/requirements.txt
 RUN chmod +x /usr/local/bin/entrypoint.sh &&\
 	pip install -r /build/requirements.txt --no-input
 
-ENTRYPOINT ["entrypoint.sh"]
+CMD ["python","manage.py", "runserver"]
