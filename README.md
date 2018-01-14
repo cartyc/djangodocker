@@ -1,6 +1,6 @@
 # GEO Django Docker Image
 
-Base Docker image for django projects.
+Base GEODocker image for django projects.
 
 Contains
 - Django 2.0
@@ -13,4 +13,4 @@ Contains
 - Gunicorn
 - Psycopg2
 - Whitenoise
-- libgdal-de
+- libgdal-dev
